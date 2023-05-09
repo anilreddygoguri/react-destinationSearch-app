@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.place-image {
+  width: 300px;
+}
+
+.place-card {
+  margin: 10px;
+}
+.place-text {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .place-image {
+    width: 250px;
+  }
+}
